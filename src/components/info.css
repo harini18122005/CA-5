@@ -1,0 +1,50 @@
+.book-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-info-left {
+  flex: 1;
+}
+
+.book-info-left img {
+  width: 50%;
+  height: auto;
+  position: relative;
+  left: 90px;
+  top: 90px;
+}
+
+.book-info-right {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.book-details {
+  text-align: center;
+}
+
+.book-details h1 {
+  font-size: 40px;
+  margin-bottom: 155px;
+  right: 280px;
+  position: relative;
+  color: red;
+}
+
+.book-details h4, .book-details h5 {
+  margin: 5px 0;
+  font-size: 30px;
+  position: relative;
+  right: 125px;
+  bottom:  70px;
+}
+
+.book-details p {
+  margin-top: 10px;
+  font-size: 25px;
+  position: relative;
+  right: 125px;
+  bottom:  40px;
+}
